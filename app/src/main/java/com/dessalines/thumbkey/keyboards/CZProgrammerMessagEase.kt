@@ -39,6 +39,7 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("-"),
                                     action = KeyAction.CommitText("-"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
@@ -49,17 +50,25 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("$"),
                                     action = KeyAction.CommitText("$"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("°"),
                                     action = KeyAction.CommitText("°"),
+                                    color = ColorVariant.MUTED,
                                 ),
-                            SwipeDirection.LEFT to
+                            SwipeDirection.TOP_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("`"),
                                     action = KeyAction.CommitText("`"),
+                                    color = ColorVariant.MUTED,
                                 ),
+                            SwipeDirection.LEFT to
+                                KeyC(
+                                    display = KeyDisplay.TextDisplay("q"),
+                                    action = KeyAction.CommitText("q"),
+                                )
                         ),
                 ),
                 KeyItemC(
@@ -91,11 +100,13 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("!"),
                                     action = KeyAction.CommitText("!"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("\\"),
                                     action = KeyAction.CommitText("\\"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM to
                                 KeyC(
@@ -106,11 +117,13 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("/"),
                                     action = KeyAction.CommitText("/"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("+"),
                                     action = KeyAction.CommitText("+"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -128,6 +141,7 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("^"),
                                     action = KeyAction.CommitText("^"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_LEFT to
                                 KeyC(
@@ -138,26 +152,31 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("ˇ"),
                                     action = KeyAction.CommitText("ˇ"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("?"),
                                     action = KeyAction.CommitText("?"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("="),
                                     action = KeyAction.CommitText("="),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("¨"),
                                     action = KeyAction.CommitText("¨"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("´"),
                                     action = KeyAction.CommitText("´"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -188,21 +207,25 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("'"),
                                     action = KeyAction.CommitText("'"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("("),
                                     action = KeyAction.CommitText("("),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("_"),
                                     action = KeyAction.CommitText("_"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("%"),
                                     action = KeyAction.CommitText("%"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -288,16 +311,19 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay(")"),
                                     action = KeyAction.CommitText(")"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("@"),
                                     action = KeyAction.CommitText("@"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("|"),
                                     action = KeyAction.CommitText("|"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -328,16 +354,19 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("<"),
                                     action = KeyAction.CommitText("<"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("~"),
                                     action = KeyAction.CommitText("~"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("*"),
                                     action = KeyAction.CommitText("*"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -355,6 +384,7 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("\""),
                                     action = KeyAction.CommitText("\""),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP to
                                 KeyC(
@@ -420,6 +450,7 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("&"),
                                     action = KeyAction.CommitText("&"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
@@ -430,16 +461,19 @@ val KB_CZ_PROG_MAIN =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay(";"),
                                     action = KeyAction.CommitText(";"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay(">"),
                                     action = KeyAction.CommitText(">"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("#"),
                                     action = KeyAction.CommitText("#"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -475,6 +509,7 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("-"),
                                     action = KeyAction.CommitText("-"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
@@ -485,17 +520,25 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("$"),
                                     action = KeyAction.CommitText("$"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("°"),
                                     action = KeyAction.CommitText("°"),
+                                    color = ColorVariant.MUTED,
                                 ),
-                            SwipeDirection.LEFT to
+                            SwipeDirection.TOP_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("`"),
                                     action = KeyAction.CommitText("`"),
+                                    color = ColorVariant.MUTED,
                                 ),
+                            SwipeDirection.LEFT to
+                                KeyC(
+                                    display = KeyDisplay.TextDisplay("Q"),
+                                    action = KeyAction.CommitText("Q"),
+                                )
                         ),
                 ),
                 KeyItemC(
@@ -527,11 +570,13 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("!"),
                                     action = KeyAction.CommitText("!"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("\\"),
                                     action = KeyAction.CommitText("\\"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM to
                                 KeyC(
@@ -542,11 +587,13 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("/"),
                                     action = KeyAction.CommitText("/"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("+"),
                                     action = KeyAction.CommitText("+"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -564,6 +611,7 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("^"),
                                     action = KeyAction.CommitText("^"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_LEFT to
                                 KeyC(
@@ -574,26 +622,31 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("ˇ"),
                                     action = KeyAction.CommitText("ˇ"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("?"),
                                     action = KeyAction.CommitText("?"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("="),
                                     action = KeyAction.CommitText("="),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("¨"),
                                     action = KeyAction.CommitText("¨"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("´"),
                                     action = KeyAction.CommitText("´"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -624,21 +677,25 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("'"),
                                     action = KeyAction.CommitText("'"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("("),
                                     action = KeyAction.CommitText("("),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("_"),
                                     action = KeyAction.CommitText("_"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("%"),
                                     action = KeyAction.CommitText("%"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -731,16 +788,19 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay(")"),
                                     action = KeyAction.CommitText(")"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("@"),
                                     action = KeyAction.CommitText("@"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("|"),
                                     action = KeyAction.CommitText("|"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -771,16 +831,19 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("<"),
                                     action = KeyAction.CommitText("<"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("~"),
                                     action = KeyAction.CommitText("~"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("*"),
                                     action = KeyAction.CommitText("*"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
@@ -818,6 +881,7 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay(":"),
                                     action = KeyAction.CommitText(":"),
+                                    color = ColorVariant.MUTED,
                                     color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM to
@@ -858,6 +922,7 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("&"),
                                     action = KeyAction.CommitText("&"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
                                 KeyC(
@@ -868,16 +933,19 @@ val KB_CZ_PROG_SHIFTED =
                                 KeyC(
                                     display = KeyDisplay.TextDisplay(";"),
                                     action = KeyAction.CommitText(";"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay(">"),
                                     action = KeyAction.CommitText(">"),
+                                    color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("#"),
                                     action = KeyAction.CommitText("#"),
+                                    color = ColorVariant.MUTED,
                                 ),
                         ),
                 ),
