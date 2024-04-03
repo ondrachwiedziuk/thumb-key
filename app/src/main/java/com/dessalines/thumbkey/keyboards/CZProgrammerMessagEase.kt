@@ -960,7 +960,7 @@ val KB_CZ_PROG_SHIFTED =
 
 val KB_CZ_PROG: KeyboardDefinition =
     KeyboardDefinition(
-        title = "čeština programming nessagease",
+        title = "čeština programming messagease",
         modes =
             KeyboardDefinitionModes(
                 main = KB_CZ_PROG_MAIN,
