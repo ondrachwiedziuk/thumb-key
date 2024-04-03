@@ -140,7 +140,7 @@ val KB_CZ_PROG_MAIN =
                             SwipeDirection.TOP to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("^"),
-                                    action = KeyAction.CommitText("\u0302"),
+                                    action = KeyAction.CommitText("^"),
                                     color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_LEFT to
@@ -151,7 +151,7 @@ val KB_CZ_PROG_MAIN =
                             SwipeDirection.BOTTOM_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("ˇ"),
-                                    action = KeyAction.CommitText("\u030C"),
+                                    action = KeyAction.ComposeLastKey("ˇ"),
                                     color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
@@ -169,13 +169,13 @@ val KB_CZ_PROG_MAIN =
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("¨"),
-                                    action = KeyAction.CommitText("\u0308"),
+                                    action = KeyAction.ComposeLastKey("¨"),
                                     color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("´"),
-                                    action = KeyAction.CommitText("\u0301"),
+                                    action = KeyAction.ComposeLastKey("´"),
                                     color = ColorVariant.MUTED,
                                 ),
                         ),
@@ -480,7 +480,7 @@ val KB_CZ_PROG_MAIN =
                 BACKSPACE_KEY_ITEM,
             ),
             listOf(
-                SPACEBAR_KEY_ITEM,
+                SPACEBAR_ZERO_KEY_ITEM,
                 RETURN_KEY_ITEM,
             ),
         ),
@@ -610,7 +610,7 @@ val KB_CZ_PROG_SHIFTED =
                             SwipeDirection.TOP to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("^"),
-                                    action = KeyAction.CommitText("\u0302"),
+                                    action = KeyAction.CommitText("^"),
                                     color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.TOP_LEFT to
@@ -621,7 +621,7 @@ val KB_CZ_PROG_SHIFTED =
                             SwipeDirection.BOTTOM_LEFT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("ˇ"),
-                                    action = KeyAction.CommitText("\u030C"),
+                                    action = KeyAction.ComposeLastKey("ˇ"),
                                     color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.LEFT to
@@ -639,13 +639,13 @@ val KB_CZ_PROG_SHIFTED =
                             SwipeDirection.TOP_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("¨"),
-                                    action = KeyAction.CommitText("\u0308"),
+                                    action = KeyAction.ComposeLastKey("¨"),
                                     color = ColorVariant.MUTED,
                                 ),
                             SwipeDirection.BOTTOM_RIGHT to
                                 KeyC(
                                     display = KeyDisplay.TextDisplay("´"),
-                                    action = KeyAction.CommitText("\u0301"),
+                                    action = KeyAction.ComposeLastKey("´"),
                                     color = ColorVariant.MUTED,
                                 ),
                         ),
@@ -952,7 +952,7 @@ val KB_CZ_PROG_SHIFTED =
                 BACKSPACE_KEY_ITEM,
             ),
             listOf(
-                SPACEBAR_KEY_ITEM,
+                SPACEBAR_ZERO_KEY_ITEM,
                 RETURN_KEY_ITEM,
             ),
         ),
